@@ -1,0 +1,1 @@
+<view class="uni-border-radius"><navigator class="uni-border-radius" url="../ifelse/ifelse"><button type="default">选择分支结构</button></navigator><navigator class="uni-border-radius" url="../loop/loop"><button type="default">循环结构</button></navigator></view>

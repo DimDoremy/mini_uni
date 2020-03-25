@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "循环结构",
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

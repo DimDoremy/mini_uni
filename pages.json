@@ -1,0 +1,32 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "作业用"
+		}
+	}, {
+		"path": "pages/loop/loop",
+		"style": {
+			"navigationBarTitleText": "循环结构"
+		}
+	}, {
+		"path": "pages/ifelse/ifelse",
+		"style": {
+			"navigationBarTitleText": "选择分支结构"
+		}
+	}    ,{
+            "path" : "pages/sum/sum",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/second/second",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
