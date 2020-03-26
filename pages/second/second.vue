@@ -15,26 +15,26 @@
 export default {
 	data() {
 		return {
-			Second: Math.round(0.0 * 100) / 100,
+			Second: Math.round(0.0 * 1000) / 1000,
 			timer: 0
 		};
 	},
 	methods: {
 		timeCount: function() {
 			this.timer = setInterval(() => {
-				if (this.Second + 0.01 < 60) {
-					this.Second = Math.round((this.Second + 0.01) * 100) / 100;
+				if (this.Second + 0.001 < 60) {
+					this.Second = Math.round((this.Second + 0.001) * 1000) / 1000;
 				} else {
-					this.Second = Math.round(0.0 * 100) / 100;
+					this.Second = Math.round(0.0 * 1000) / 1000;
 				}
-			}, 10);
+			}, 1);
 		},
 		timeStop: function() {
 			clearInterval(this.timer);
 		},
 		timeReset: function() {
 			clearInterval(this.timer);
-			this.Second = Math.round(0.0 * 100) / 100;
+			this.Second = Math.round(0.0 * 1000) / 1000;
 		}
 	}
 };
