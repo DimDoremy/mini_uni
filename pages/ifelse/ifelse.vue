@@ -13,7 +13,7 @@
 				<button form-type="submit" class="uni-border-radius">提交</button>
 			</form>
 		</view>
-		<uni-card title="学生信息">
+		<uni-card title="学生信息" v-if="!flag">
 			<view> 姓名：{{student}} </view>
 			<view> 语文：{{chinese}} </view>
 			<view> 数学：{{math}} </view>

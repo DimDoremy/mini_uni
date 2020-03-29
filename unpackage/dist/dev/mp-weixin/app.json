@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/loop/loop",
-    "pages/ifelse/ifelse"
+    "pages/ifelse/ifelse",
+    "pages/sum/sum",
+    "pages/second/second"
   ],
   "subPackages": [],
   "window": {
@@ -12,5 +14,5 @@
     "backgroundColor": "#FFFFFF"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap15.json"
+  "sitemapLocation": "sitemap13.json"
 }
